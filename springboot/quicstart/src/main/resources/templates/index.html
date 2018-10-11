@@ -1,0 +1,15 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" />
+</head>
+<body>
+<h2>Hello</h2>
+<p th:text="${model.age}"></p>
+<div class="alert alert-success">
+    <p th:text="${model.name}"><br>is a model</p>
+</div>
+</body>
+</html>
